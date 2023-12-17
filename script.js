@@ -199,7 +199,10 @@ if (firstClick){
 
 if (window.matchMedia('(max-width: 1281px)').matches) {
 
-
+document.addEventListener('dblclick', function() {
+  
+    document.body.style.zoom = 1;
+});
 let ouvert=false ;
  
 
