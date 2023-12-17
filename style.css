@@ -31,7 +31,7 @@ body {
 
     cursor: none;
 scroll-behavior: smooth;
-
+touch-action: manipulation;
 }
 
 .custom-cursor{
