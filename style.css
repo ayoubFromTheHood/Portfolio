@@ -1626,8 +1626,7 @@ display: none;
 }
 .card {
   
-width: 80vw;
-height: 88vh;
+
   perspective: 1000px;
 margin-left: 10% ;
   position: relative;
@@ -1660,7 +1659,7 @@ height: 70vh;
   
  .card2__inner {
 position: absolute;
-top : -93vh ;
+top : -90vh ;
   width: 80vw;
 height: 70vh;
   transition: transform 0.3s  ease-in-out;
@@ -1680,20 +1679,21 @@ height: 70vh;
  .card4__inner {
 
   position: absolute;
-  top : -189.4vh ;
+  top : -179.4vh ;
     width: 80vw;
-  height: 65vh;
+  height: 72vh;
     transition: transform 0.13s  ease-in-out;
     transform-style: preserve-3d;
     cursor: pointer;
     display: none;
 
 }
+
  .card4__inner.is-flipped {
-   transform: rotateY(-180deg);
-   transition: 0.17s;
+   transform: rotateY(180deg);
+   transition: 0.20s;
   
-   scale: 1;
+  
    
  }
 
@@ -1723,6 +1723,7 @@ margin-left: 0;
   justify-content: center;
 display: inline-block;
 margin-left: 0px;
+
 }
 
 
@@ -1730,9 +1731,9 @@ margin-left: 0px;
 .card__face--front h2 {
   color: #FFF;
   font-size: 0.1vw;
- text-align: center;
- margin-top: 35%;
- 
+  
+  text-align: center;
+  margin-top: 45%;
 }
 
 .skills {
@@ -1763,7 +1764,7 @@ margin-left: 0px;
 .card__face--front h2 {
  
   font-size: 7vw;
-  margin-top: 75%;
+  margin-top: 55%;
   
 }
 .card__header {
@@ -1773,7 +1774,7 @@ margin-left: 0px;
 
 .card__header h2 {
  
-  font-size: 3.5vw;
+  font-size: 3.8vw;
   font-weight: 900;
   
 }
@@ -1789,7 +1790,7 @@ margin-left: 0px;
 
 .card__body h4  {
   color: white;
-  font-size: 3.5vw;
+  font-size: 3.8vw;
   font-weight: 430;
  
 
@@ -1803,9 +1804,9 @@ margin-left: 0px;
 }
 .grid-item {
   color: white;
-  font-size: 3.3vw;
+  font-size: 3vw;
   font-weight: 420;
-  padding: 2%;
+  padding: 1.5%;
   text-align: center;
 
 
