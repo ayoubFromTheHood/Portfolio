@@ -52,6 +52,11 @@ var firstClick = true;
 
 
 
+if (window.matchMedia('(max-width: 1281px)').matches) {
+  logo.innerHTML = '<img id="logo" src="./svgs/logomob.svg">';
+}
+
+
 
 
 download.addEventListener('mouseenter', () => {download.style.transform = 'scale(1.1)'});
