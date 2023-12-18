@@ -1682,7 +1682,7 @@ height: 70vh;
   position: absolute;
   top : -189.4vh ;
     width: 80vw;
-  height: 70h;
+  height: 65vh;
     transition: transform 0.13s  ease-in-out;
     transform-style: preserve-3d;
     cursor: pointer;
