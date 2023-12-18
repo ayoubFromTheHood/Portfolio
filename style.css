@@ -1535,10 +1535,10 @@ text-align: center;
 
 .logo{
 position: absolute;
-top: 12vh;
-left:30% ;
-height: 20vh;
-width: 50vw;
+top: 10vh;
+left:45% ;
+height: 10vh;
+width: 22vw;
 transition: 200ms ease-in;
 }
 
