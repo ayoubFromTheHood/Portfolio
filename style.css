@@ -1516,16 +1516,31 @@ text-align: center;
 
 
 
+  .logo img{
+
+    height: 100%;
+    width: 100%;
+    
+      }
+
+
+
+
+
+
+
+
+
 
 
 .logo{
 position: absolute;
-top: 11%;
-left:43% ;
-transform: scale(4.7);
+top: 20vh;
+left:49% ;
+width: 10%;
+height: 10%;
 transition: 200ms ease-in;
 }
-
 
 body{
 overflow: hidden;
