@@ -1644,7 +1644,7 @@ margin-left: 10% ;
 .card__inner {
 
   width: 80vw;
-height: 75vh;
+height: 70vh;
   transition: transform 0.3s  ease-in-out;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -1662,7 +1662,7 @@ height: 75vh;
 position: absolute;
 top : -93vh ;
   width: 80vw;
-height: 75vh;
+height: 70vh;
   transition: transform 0.3s  ease-in-out;
   transform-style: preserve-3d;
   cursor: pointer;
@@ -1682,7 +1682,7 @@ height: 75vh;
   position: absolute;
   top : -189.4vh ;
     width: 80vw;
-  height: 73vh;
+  height: 70h;
     transition: transform 0.13s  ease-in-out;
     transform-style: preserve-3d;
     cursor: pointer;
