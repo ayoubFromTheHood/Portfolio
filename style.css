@@ -1191,6 +1191,10 @@ span.horizontal-4 {
 
 
 
+
+
+
+
 .logo{
 position: absolute;
 top: 11%;
@@ -1783,14 +1787,14 @@ margin-left: 0px;
 
 .card__body h3 {
   color: white;
-  font-size: 2.5vw;
+  font-size: 2.8vw;
   font-weight: 600;
 }
 
 
 .card__body h4  {
   color: white;
-  font-size: 2.8vw;
+  font-size: 3.1vw;
   font-weight: 430;
  
 
@@ -1798,13 +1802,13 @@ margin-left: 0px;
 
 .card__body p {
   color: white;
-  font-size: 2vw;
+  font-size: 2.3vw;
   font-weight: 400;
   
 }
 .grid-item {
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.8vw;
   font-weight: 420;
   padding: 1.5%;
   text-align: center;
@@ -1876,8 +1880,8 @@ margin-left: 0px;
 } 
 .grid-item {
   color: white;
-  font-size: 2.3vw;
-  font-weight: 550;
+  font-size: 2.6vw;
+  font-weight: 580;
   padding: 1.3%;
   text-align: center;
 
