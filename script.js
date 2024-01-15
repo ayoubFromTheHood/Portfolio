@@ -47,7 +47,26 @@ var firstClick = true;
 
 
 
+download.addEventListener('click', () => {
 
+
+  downloadCV()
+
+});
+
+
+function downloadCV() {
+        // Créer un élément <a> pour le téléchargement
+        var downloadLink = document.createElement('a');
+        downloadLink.href = 'cv.pdf';  // Spécifiez le chemin du fichier PDF
+        downloadLink.download = 'cv.pdf';  // Nom du fichier à télécharger
+
+        // Simuler un clic sur le lien de téléchargement
+        document.body.appendChild(downloadLink);
+        downloadLink.click();
+        document.body.removeChild(downloadLink);
+      }
+    
 
 
 
