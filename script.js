@@ -40,21 +40,6 @@ const begin = document.getElementById("begin")
 const menuimg = document.getElementById("menupic")
 var firstClick = true;
 
-
-
-
-
-
-
-
-download.addEventListener('click', () => {
-
-
-  downloadCV()
-
-});
-
-
 function downloadCV() {
         // Créer un élément <a> pour le téléchargement
         var downloadLink = document.createElement('a');
@@ -70,10 +55,15 @@ function downloadCV() {
 
 
 
-
 if (window.matchMedia('(max-width: 1281px)').matches) {
   logo.innerHTML = '<img id="logo" src="./svgs/logomob.svg">';
 }
+
+
+
+
+
+
 
 
 
@@ -100,6 +90,12 @@ controller.addEventListener('click', () => {
 
 
 if (window.matchMedia('(min-width: 1281px)').matches) { 
+  download.addEventListener('click', () => {
+
+
+    downloadCV()
+    
+    });
 home.style.display='none';
   navigation.style.display='block'
   setTimeout(function() {
@@ -107,10 +103,17 @@ home.style.display='none';
     
 }, 400);
 
+
+
+
   parallax1.style.display='grid' ;
   setTimeout(function() {
  
     card.scrollIntoView({ behavior: 'smooth' });
+
+
+
+
 }, 200);
 
 setTimeout(function() {
@@ -209,7 +212,16 @@ if (firstClick){
  
   parallax1.style.display='none' ;
 
+  
+
 }
+
+download.addEventListener('click', () => {
+
+
+  downloadCV()
+  
+  });
 }})
 
 
@@ -223,10 +235,7 @@ if (firstClick){
 
 if (window.matchMedia('(max-width: 1281px)').matches) {
 
-document.addEventListener('dblclick', function() {
-  
-    document.body.style.zoom = 1;
-});
+
 let ouvert=false ;
  
 
