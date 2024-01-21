@@ -64,12 +64,7 @@ function downloadFile() {
 
       alert('Le téléchargement a été bloqué par le navigateur. Veuillez autoriser les fenêtres contextuelles.');
   }
-  else {
-     
-      setTimeout(function () {
-          newWindow.close();
-      }, 2000); 
-  }
+
   document.body.removeChild(anchor);
 }
 function downloadCV() {
