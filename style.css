@@ -736,9 +736,7 @@ animation-play-state: paused;
   position: absolute;
   margin-top: 115vh;
   left: 47vw;
-  animation : waves 3.5s ease-in-out infinite;
-  transition: 0.097s;
-  animation-play-state: running;
+  
 
 cursor:none;
 z-index: 555;
@@ -766,7 +764,22 @@ align-self: center;
 
 
 
+.download-btn{
+  position: absolute;
+  top: 85vh;
+  left: 23vw;
+  background-color: DodgerBlue;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius:5px;
+  display: block;
+}
 
+.download-btn:hover {
+  background-color: RoyalBlue;
+}
 
 
 
@@ -774,48 +787,22 @@ align-self: center;
 
     .downloadcv{
   
-      position: absolute;
-      margin-top: 29vh;
-      left: 80%;
-    
-    
-    cursor:none;
-    z-index: 555;
+      display: none;
     
     }
-    .downloadcv :hover{  
-      transform: scale(1);  
-    cursor:none;
-    z-index: 555;
-    animation-play-state: paused;
+
+
+    
+    #downloadcv{ display: none;
+  
     }
     
-    #downloadcv{ box-shadow: 2px 1px 2px 1px #888888;
-      border-radius: 50%; 
-      align-self: center;
-      background-color: #ffffffb2;
-     margin: 0;
-     display: none;
-    height: 60%;
-    width: 60%;
-    transition: 200ms;
+
     
-    border-radius: 90%; 
-    align-self: center;
-    animation : waves 3.5s ease-in-out infinite;
-    transition: 0.97s;
-    animation-play-state: running;
+       .download-btn{
     
-    
-    }
-    
-    #downloadcv:hover{
-      animation-play-state: paused;
-     
-      transform: 0.1s scale(1);  
-       }
-    
-    
+        display: block;
+      }
     
 body{
   overflow: hidden; }
@@ -1191,10 +1178,6 @@ span.horizontal-4 {
 
 
 
-
-
-
-
 .logo{
 position: absolute;
 top: 11%;
@@ -1506,8 +1489,25 @@ text-align: center;
   
 
 
-  #downloadcv{width: 80%;height: 80%;
+  .downloadcv{
+  
+    display: none;
+  
   }
+
+
+  
+  #downloadcv{ display: none;
+
+  }
+  
+
+  
+     .download-btn{
+  
+      display: block;
+    }
+  
 
 
 
