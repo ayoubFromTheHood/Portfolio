@@ -56,19 +56,20 @@ function downloadFile() {
  
   var fileUrl = "./cv.pdf";
 
-
-  var anchor = document.createElement("a");
-  anchor.style.display = "none";
-  anchor.href = fileUrl;
-  anchor.download = "cv.pdf"; 
-
-  
-  document.body.appendChild(anchor);
-
  
-  anchor.click();
+  var newWindow = window.open(fileUrl, '_blank');
 
- 
+
+  if (!newWindow || newWindow.closed || typeof newWindow.closed === 'undefined') {
+
+      alert('Le téléchargement a été bloqué par le navigateur. Veuillez autoriser les fenêtres contextuelles.');
+  }
+  else {
+     
+      setTimeout(function () {
+          newWindow.close();
+      }, 2000); 
+  }
   document.body.removeChild(anchor);
 }
 function downloadCV() {
