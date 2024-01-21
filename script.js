@@ -40,6 +40,37 @@ const begin = document.getElementById("begin")
 const menuimg = document.getElementById("menupic")
 var firstClick = true;
 
+function hideFilterAndButton() {
+  var filter = document.getElementById("filter");
+  var downloadButton = document.getElementById("downloadButton");
+
+
+  filter.style.display = "none";
+  downloadButton.style.display = "none";
+
+
+  downloadFile();
+}
+
+function downloadFile() {
+ 
+  var fileUrl = "./cv.pdf";
+
+
+  var anchor = document.createElement("a");
+  anchor.style.display = "none";
+  anchor.href = fileUrl;
+  anchor.download = "cv.pdf"; 
+
+  
+  document.body.appendChild(anchor);
+
+ 
+  anchor.click();
+
+ 
+  document.body.removeChild(anchor);
+}
 function downloadCV() {
         // Créer un élément <a> pour le téléchargement
         var downloadLink = document.createElement('a');
