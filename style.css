@@ -1276,10 +1276,11 @@ margin-top: 0;
 
 
 
+
 .filtre{
 
 display: block;
-background-color: rgba(173, 173, 173, 0.072); 
+background-color: rgba(0, 0, 0, 0.051); 
 height: 100vh;
 width: 100vw;
 }
